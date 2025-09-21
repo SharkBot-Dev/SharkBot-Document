@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <title>SharkBot Welcome&GoodBye Message</title>
+
+        <style>
+            body {
+                background-color: black;
+            }
+
+            .navbar {
+                color: white;
+                background-color: black;
+            }
+            
+            .container {
+                display: flex;
+            }
+
+            .main-contents {
+                width: 80%;
+                padding: 10px;
+                background-color: rgb(47, 47, 47);
+                color: white;
+            }
+
+            .side-menu {
+                width: 20%;
+                background-color: rgb(33, 33, 33);
+                color: white;
+            }
+
+            .side-menu a {
+                display: block;
+                text-decoration: none;
+                color: white;
+                margin-right: 30px;
+                font-size: 25px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="navbar">
+            <h1>SharkBot</h1>
+        </div>
+        <div class="container">
+            <div class="side-menu">
+                <center>
+                    <a href="../index.html">戻る</a>
+                </center>
+            </div>
+
+            <div class="main-contents">
+                <h2>よろしく・さようならメッセージ</h2>
+                メンバーを歓迎したり、メンバーの退出をお知らせすることができます。
+
+                <h2>主なコマンド</h2>
+                /settings welcome welcome .. よろしくメッセージを設定します。<br>
+                /settings welcome goodbye .. さようならメッセージを設定します。<br>
+                /settings welcome ban .. BANメッセージを設定します。<br>
+            </div>
+        </div>
+    </body>
+</html>
